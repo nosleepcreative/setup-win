@@ -3,6 +3,13 @@
 Here is a small guide to get your Windows setup with a list of commmonly used software catered towards a motion designer/content creator using Chocolatey package manager. Alternatively, you can use [Ninite](https://ninite.com/) which has a simpler user interface to install software of your choice.
 
 ## [Windows Activation](https://github.com/massgravel/Microsoft-Activation-Scripts/releases/tag/1.8)
+### [Bypass Windows 11 Internet Connection & Microsoft Account Login During Setup](https://youtu.be/LX8vb48oodI)
+1. Press `Shift + F10` to bring up the Administrator command prompt.
+2. Type the following command and press enter: `oobe\BypassNRO`
+3. Windows will reboot and you can go through the OOBE section and on the internet connection screen you can choose "I don't have an internet connection" and proceed to create an offline account.
+4. When finished you can install the WiFi or Ethernet adapter drivers from a USB stick or CDrom
+
+### License Activation
 1. Open **Windows Powershell** as Administrator
 2. Copy and paste the code below, and hit enter.
 ```

@@ -1,12 +1,14 @@
 # setup-win
 
-> WARNING I'm currently working on a re-write of these docs
+Here is a small guide to get your Windows setup with a list of commmonly used software catered towards a motion designer/content creator using Chocolatey package manager. Alternatively, you can use [Ninite](https://ninite.com/) which has a simpler user interface to install software of your choice.
 
-Set up a fresh Windows 11 install the easy way using the winget package manager.
-
-Fork and change it to your favourite apps. Mine will be a fairly minimal gaming rig.
-
-> 💡 I also have guides for [macOS](https://github.com/miclgael/setup) and [Linux](https://github.com/miclgael/setup-linux)!
+## [Windows Activation](https://github.com/massgravel/Microsoft-Activation-Scripts/releases/tag/1.8)
+1. Open **Windows Powershell** as Administrator
+2. Copy and paste the code below, and hit enter.
+```
+irm https://massgrave.dev/get | iex 
+```
+3. You will see the activation options, and follow onscreen instructions.
 
 ## 🍫 Install [Chocolatey](https://chocolatey.org/install) Package Manager
 
@@ -29,76 +31,67 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 choco version all
 ```
 
-# TL;DR - All in one
 
-```bash
-choco install -y microsoft-windows-terminal firefox origin steam uplay goggalaxy vortex epicgameslauncher discord slack notion obs obs-studio virtualbox itunes icloud vlc 7zip ccleaner FiraCode-ttf powertoys dashlane authy-desktop
-```
+
 
 # Step-by-step
 
-## 👩‍💻 Install [Windows Terminal](https://github.com/Microsoft/Terminal)
+
+## 🌍 Install Browser
 
 ```bash
-choco install -y microsoft-windows-terminal 
-```
-
-## 🔐 Install Password manager
-
-```bash
-choco install -y 1password
-```
-
-## 🦊 Install [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-
-```bash
-choco install -y firefox
+choco install -y chrome vivaldi
 ````
-
-## 🎮 Install game launchers
-
-```bash
-choco install -y origin steam uplay goggalaxy vortex epicgameslauncher
-```
 
 ## 🦜 Install chat clients
 
 ```bash
-choco install -y discord slack
+choco install -y discord slack zoom 
 ```
+
+## 🛠 Install utilities
+```bash
+choco install -y powertoys sharex 7zip coretemp cpu-z imagemagick searcheverything speccy windirstat adobereaderdropbox googledrive quicktime vlc spotifysumatrapdf 
+```
+
+
 
 ## Install other misc. bits
 
+
 ```bash
-choco install -y obs obs-studio virtualbox itunes icloud vlc 7zip ccleaner 
+choco install -y zotero
+
 ```
 
-## 📺 Install graphics drivers (Choose one)
 
-- Team Green: [NVIDIA Experience](https://www.nvidia.com/Download/index.aspx)
-- Team Red: [AMD Adrenaline](https://www.amd.com/en/support)
+## 📺 Install Drivers (Choose one)
+- [MSI](https://www.msi.com/support/download/)
+### Graphics
+- [NVIDIA Experience](https://www.nvidia.com/Download/index.aspx)
+- [AMD Adrenaline](https://www.amd.com/en/support)
 
-## 🎼 Install Sound drivers (Optional)
 
-- [Komplete Audio 6](https://www.native-instruments.com/en/support/downloads/drivers-other-files/#kompleteaudio6)
+## ⭐️ Creative
+```bash
+choco install -y epicgameslauncher obs obs-studio figma miro pureref
+```
+- [Adobe Creative Cloud](https://www.adobe.com/creativecloud/desktop-app.html)
+- [Maxon](https://www.maxon.net/en/maxon-one)
+- [Da Vinci Resolve (Sign-up required)](https://www.blackmagicdesign.com/products/davinciresolve/#global-footer)
 
-## 🐧 Install some dev stuff (Optional)
+- [Posthaste](https://www.digitalrebellion.com/posthaste/)
 
-- Install Windows Subsystem for Linux, enable it, enable Ubuntu (or your favourite flavour) (check Windows App Store)
+
+## 🐧 Install Code Development (Optional)
+```bash
+choco install -y visualstudiocode git
+```
+
 
 ## Extra stuff (Optional)
-
-- [Xbox (Beta) app](https://www.microsoft.com/en-au/p/xbox-beta/9mv0b5hzvk9z)
-- [Xbox Accessories app](https://www.microsoft.com/en-au/p/xbox-accessories/9nblggh30xj3)
-- Install Fira-Code font: `choco install -y FiraCode-ttf`
-- Install Windows PowerToys (Preview): `choco install -y powertoys`
-- [Razer Synapse 3](https://www.razer.com/synapse-3)
-- [Da Vinci Resolve 17 (Sign-up required)](https://www.blackmagicdesign.com/products/davinciresolve/#global-footer)
-- Change Disk Letters (eg, **C:\\**, **E:\\**=WD Green, **G:\\**=Games, **R:\\**=WD Red (RAIDED), **V:\\**=VirtualMachines)
-- DS4 Windows (a must have for PS controller users!)
-- [Steam ROM Manager](https://steamgriddb.github.io/steam-rom-manager/)
-- https://answers.microsoft.com/en-us/windows/forum/all/restore-old-right-click-context-menu-in-windows-11/a62e797c-eaf3-411b-aeec-e460e6e5a82a
+- Google Drive
+- Dropbox
 
 ## Web apps
-
-- [Steam Grid DB](https://www.steamgriddb.com) - add custom banners and logos for your non-steam games.
+- uTorrent

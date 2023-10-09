@@ -70,7 +70,7 @@ choco install -y powertoys sharex 7zip coretemp cpu-z imagemagick searcheverythi
 choco install -y zotero
 
 ```
-
+- [Restoring Zotero Preferences] (https://www.zotero.org/support/zotero_data)
 
 ## 📺 Install Drivers (Choose one)
 - [MSI](https://www.msi.com/support/download/)

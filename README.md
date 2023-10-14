@@ -70,7 +70,7 @@ choco install -y powertoys sharex 7zip coretemp cpu-z imagemagick searcheverythi
 choco install -y zotero
 
 ```
-- [Restoring Zotero Preferences] (https://www.zotero.org/support/zotero_data)
+- [Restoring Zotero Preferences](https://www.zotero.org/support/zotero_data)
 
 ## 📺 Install Drivers (Choose one)
 - [MSI](https://www.msi.com/support/download/)
@@ -95,6 +95,7 @@ choco install -y epicgameslauncher obs obs-studio figma miro pureref
 choco install -y visualstudiocode git
 ```
 - [Python](https://www.python.org/downloads/windows/)
+- [Python setup for VSC}(https://stackoverflow.com/questions/58754860/cmd-opens-windows-store-when-i-type-python)
 
 ## Extra stuff (Optional)
 - Google Drive

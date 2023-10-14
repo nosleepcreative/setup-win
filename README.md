@@ -94,7 +94,7 @@ choco install -y epicgameslauncher obs obs-studio figma miro pureref
 ```bash
 choco install -y visualstudiocode git
 ```
-
+- [Python](https://www.python.org/downloads/windows/)
 
 ## Extra stuff (Optional)
 - Google Drive

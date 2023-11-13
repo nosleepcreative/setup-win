@@ -58,7 +58,7 @@ choco install -y discord slack zoom
 
 ## 🛠 Install utilities
 ```bash
-choco install -y powertoys sharex 7zip coretemp cpu-z imagemagick searcheverything speccy windirstat adobereaderdropbox googledrive quicktime vlc spotifysumatrapdf 
+choco install -y libreoffice powertoys sharex 7zip quicktime vlc spotifysumatrapdf adobereaderdropbox coretemp windirstat cpu-z imagemagick searcheverything speccy googledrive 
 ```
 
 
@@ -88,6 +88,7 @@ choco install -y epicgameslauncher obs obs-studio figma miro pureref
 - [Da Vinci Resolve (Sign-up required)](https://www.blackmagicdesign.com/products/davinciresolve/#global-footer)
 
 - [Posthaste](https://www.digitalrebellion.com/posthaste/)
+- [PureRef](https://www.pureref.com/download.php)
 
 
 ## 🐧 Install Code Development (Optional)

@@ -58,9 +58,12 @@ choco install -y discord slack zoom
 
 ## 🛠 Install utilities
 ```bash
-choco install -y libreoffice powertoys sharex 7zip quicktime vlc spotifysumatrapdf adobereaderdropbox coretemp windirstat cpu-z imagemagick searcheverything speccy googledrive ffmpeg
+choco install -y libreoffice powertoys sharex snippaste 7zip quicktime vlc spotify sumatrapdf adobereader dropbox coretemp windirstat cpu-z imagemagick searcheverything speccy googledrive dropbox handbrake ffmpeg yt-dlp
 ```
-``` winget install "FFmpeg (Essentials Build)"```
+
+```bash
+winget install "FFmpeg (Essentials Build)"
+```
 
 
 
@@ -90,6 +93,7 @@ choco install -y epicgameslauncher obs obs-studio figma miro pureref
 
 - [Posthaste](https://www.digitalrebellion.com/posthaste/)
 - [PureRef](https://www.pureref.com/download.php)
+- [Eagle](https://en.eagle.cool/)
 
 
 ## 🐧 Install Code Development (Optional)

@@ -58,8 +58,9 @@ choco install -y discord slack zoom
 
 ## 🛠 Install utilities
 ```bash
-choco install -y libreoffice powertoys sharex 7zip quicktime vlc spotifysumatrapdf adobereaderdropbox coretemp windirstat cpu-z imagemagick searcheverything speccy googledrive 
+choco install -y libreoffice powertoys sharex 7zip quicktime vlc spotifysumatrapdf adobereaderdropbox coretemp windirstat cpu-z imagemagick searcheverything speccy googledrive ffmpeg
 ```
+``` winget install "FFmpeg (Essentials Build)"```
 
 
 
